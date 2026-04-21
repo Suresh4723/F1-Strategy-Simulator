@@ -6,7 +6,7 @@ import {
 } from 'recharts';
 import './index.css';
 
-const API = 'http://localhost:8000/api';
+const API = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
 
 // ─── Types ────────────────────────────────────────────────
 
